@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reminder Notes</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body> 
+    <main id="container">
+        <section id="form-container">
+            <h1 class="main-title">White Board with Reminder Notes</h1>
+            <form action="#" method="post" id="info-notes" name="info-notes">
+                <div class="form-group">
+                    <label for="write-task" class="label">Short Details</label>
+                    <input type="text" class="input-info" name="details" id="write-task" minlength="5" maxlength="50" required>
+                </div>
+                <div class="form-group">
+                        <label for="time-task" class="label">Date and Time</label>
+                        <input type="datetime-local" class="input-info" name="date-time" id="datetime-task" required>
+                </div>
+                <div class="form-group">
+                        <button type="submit" id="add-note">
+                            <img src="src/assets/img/add.png" alt="Add Note Icon">
+                        </button>
+                </div>
+            </form>
+        </section>
+        <section id="blackboard">
+            <ul id="notes_list">
+            </ul>
+        </section>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+</html>

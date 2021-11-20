@@ -1,0 +1,19 @@
+{
+  "name": "reminder-notes",
+  "version": "1.0.0",
+  "description": "Desing of a White Board with reminder notes built with HTML5 CSS and JAVASCRIPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notes",
+    "board",
+    "reminder",
+    "html5",
+    "css3",
+    "javascript"
+  ],
+  "author": "N. Carmen Bravo A.",
+  "license": "MIT"
+}
